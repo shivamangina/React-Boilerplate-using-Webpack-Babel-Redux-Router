@@ -6,6 +6,7 @@ Babel
 Webpack
 Redux
 React Router
+Jest
 Code Splitting and Chunking
 SCSS
 
@@ -15,14 +16,20 @@ SCSS
   
   `cd React-Boilerplate-using-Webpack-Babel-Redux-Router-SCSS`
  
-  `yarn inatall`
+  `yarn install`
+ 
+ ## Available Scripts
+ 
+ ### Build Developer mode
+ `yarn run build:dev`
+ 
+ ### Build Production mode
+    `yarn run build:prod`
+    
+ ### Dev Server
+    `yarn run dev-server`
   
-## Dev server
-
-`yarn dev`
-
-Open: http://localhost:3000
-
-## Build 
-
-`yarn build`
+ ### Test
+    `yarn run test`
+ ### Node Server
+    `yarn start` or `yarn run start`
